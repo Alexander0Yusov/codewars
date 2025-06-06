@@ -11,7 +11,7 @@
 // Solution:
 
 function myFunction(number) {
-  const symbols = String(number).length;
+  const symbols = String(number).replace("-", "").length;
   return number * Math.pow(5, symbols);
 }
 
