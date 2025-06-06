@@ -14,4 +14,4 @@ function myFunction(text) {
     .join(" ");
 }
 
-console.log(myFunction("This is an example!"));
+console.log(myFunction("This is an example!")); // sihT si na !elpmaxe
